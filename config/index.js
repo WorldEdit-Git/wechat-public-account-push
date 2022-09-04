@@ -38,7 +38,7 @@ export const config = {
       id: "o4Jis6VvFEFoR8gjv68EbHftpWxs",
       useTemplateId: "fZgJBrH14bWiGtrmqjBhLSKA-B1J5dkrxdMgVA-mDSk",
       province: "山西",
-      city: "孝义",
+      city: "吕梁",
       openUrl: "https://weibo.com"
     }, 
   ],
