@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wx94297039bd115786",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "b010e2ae8427b46f63618d71d615db38",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -26,42 +26,20 @@ export const config = {
    */
   USERS: [
     {
-      // 想要发送的人的名字
-      name: "老婆0",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxO123O6Vsk2Yv0Kuf-ywIZ3VRMpuXhk",
-      // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      // 所在省份
-      province: "广东",
-      // 所在城市
-      city: "肇庆",
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆1", 
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "广东",
-      city: "河源",
+      name: "学妹", 
+      id: "o4Jis6RRonIhlxRVLaBPVlz9bNT0",
+      useTemplateId: "fZgJBrH14bWiGtrmqjBhLSKA-B1J5dkrxdMgVA-mDSk",
+      province: "山西",
+      city: "太原",
       openUrl: "https://baidu.com"
     }, 
     {
-      name: "老婆2",
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "广东",
-      city: "广州",
+      name: "自己",
+      id: "o4Jis6VvFEFoR8gjv68EbHftpWxs",
+      useTemplateId: "fZgJBrH14bWiGtrmqjBhLSKA-B1J5dkrxdMgVA-mDSk",
+      province: "山西",
+      city: "孝义",
       openUrl: "https://weibo.com"
-    }, 
-    {
-      name: "老婆3", 
-      id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk", 
-      useTemplateId: "Wue80GrtY1nAia4tam-FDxZF9WNx9pwcBc0LMpANnu8",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
     }, 
   ],
 
@@ -70,7 +48,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjVglIuCXo34CsraXWEio1i3P7sZJ7IQEES93lDsgc4yOU",
+  CALLBACK_TEMPLATE_ID: "hp6DpEAWSqod-0lauGo2AcM7CYetr2z9tKuYy4uDW20",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -78,7 +56,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO36VskY3v0Kuf-ywIZVR3MpuXhk",
+      id: "o4Jis6VvFEFoR8gjv68EbHftpWxs",
     }, 
   ],
     
@@ -89,9 +67,9 @@ export const config = {
   /** 天气相关 */
 
   // 所在省份
-  PROVINCE: "广东",
+  PROVINCE: "山西",
   // 所在城市
-  CITY: "惠州",
+  CITY: "太原",
 
   /** 重要节日相关 */
 
@@ -102,10 +80,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "节日", "name": "考研日期", "year": "2022", "date": "12-25"},
   ],
 
   /**
@@ -113,7 +88,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 1,
 
   /** 日期相关 */
 
