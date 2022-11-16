@@ -1,6 +1,6 @@
 export const config = {
   /**
-   * 公众号配置
+   * 公众号配置1
    */
 
   // 公众号APP_ID
